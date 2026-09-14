@@ -139,3 +139,24 @@ function gameLoop() {
 }
 
 gameLoop();
+
+const controlButtons = document.querySelectorAll("#controls button");
+
+controlButtons.forEach((button) => {
+  const key = button.dataset.key;
+
+  button.addEventListener("touchstart", (event) => {
+    event.preventDefault();
+    keys[key] = true;
+  });
+
+  button.addEventListener("touchend", (event) => {
+    event.preventDefault();
+    keys[key] = false;
+  });
+
+  button.addEventListener("touchcancel", (event) => {
+    event.preventDefault();
+    keys[key] = false;
+  });
+});
