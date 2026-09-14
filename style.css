@@ -29,3 +29,15 @@ p {
     left: 52%;
     top: 51%;
 }
+#controls {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#controls button {
+  width: 55px;
+  height: 55px;
+  margin: 3px;
+  font-size: 22px;
+  touch-action: none;
+}
