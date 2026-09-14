@@ -10,15 +10,15 @@ const keys = {};
 
 const walkFrames = [
 
-  "assets/walk-1.png",
+  "walk-1.png",
 
-  "assets/walk-2.png",
+  "walk-2.png",
 
-  "assets/walk-3.png",
+  "walk-3.png",
 
-  "assets/walk-4.png",
+  "walk-4.png",
   
-  "assets/walk-5.png",
+  "walk-5.png",
 
 ];
 
