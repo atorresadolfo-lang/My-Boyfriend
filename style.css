@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background: #222;
+}
+
+#game {
+    width: 640px;
+    height: 360px;
+    background: pink;
+    position:relative;
+    overflow: hidden;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+#player {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    image-rendering: pixelated;
+    left: 288px;
+    top: 146px;
+}
+#cat {
+    image-rendering: pixelated;
+    position: absolute;
+    left: 52%;
+    top: 51%;
+}
