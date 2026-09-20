@@ -1,4 +1,5 @@
 const player = document.getElementById("player");
+const game = document.getElementById("game");
 
 let x = 288;
 
@@ -90,9 +91,9 @@ function gameLoop() {
 
   // Keep character inside the room
 
-  x = Math.max(0, Math.min(x, 640 - player.offsetWidth));
+  x = Math.max(0, Math.min(x, game.offsetWidth - player.offsetWidth));
 
-  y = Math.max(0, Math.min(y, 360 - player.offsetHeight));
+  y = Math.max(0, Math.min(y, game.offsetHeight - player.offsetHeight));
 
   // Animate walking
 
