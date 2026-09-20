@@ -5,6 +5,7 @@ body {
 
 #game {
     width: 100vw;
+    height: 50%;
     aspect-ratio: 16 / 9;
     background: pink;
     position:relative;
