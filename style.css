@@ -4,8 +4,8 @@ body {
 }
 
 #game {
-    width: 640px;
-    height: 360px;
+    width: 100vw;
+    aspect-ratio: 16 / 9;
     background: pink;
     position:relative;
     overflow: hidden;
